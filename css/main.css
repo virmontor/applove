@@ -1,0 +1,187 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+nav {
+  /*outline: 1px solid yellow;*/
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+
+ul {
+/*outline: 1px solid blue;*/
+list-style: none;
+line-height: 50px;
+width: 1400px;
+}
+
+li {
+  /*outline: 1px solid red;*/
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: -50px;
+}
+
+#logo {
+  position: absolute;
+  left: 1150px;
+  bottom: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+/*trabajando 1a parte home*/
+
+#home {
+margin-right: -100px;
+outline: 1px solid red;
+margin-top: 70px;
+}
+
+#home1 h2 {
+position: absolute;
+outline: 1px solid red;
+margin-left: 480px;
+margin-top: -450px;
+color: white;
+font-size: 25px;
+}
+
+#home1 h1 {
+position: absolute;
+outline: 1px solid red;
+margin-left: 265px;
+margin-top: -355px;
+color: white;
+font-size: 49px;
+text-transform: uppercase;
+}
+
+#home1 p {
+position: absolute;
+outline: 1px solid red;
+margin-left: 388px;
+margin-top: -280px;
+color: white;
+font-size: 15px;
+text-transform: uppercase;
+}
+
+#home1 a {
+position: absolute;
+outline: 1px solid red;
+background-color: #28CC7C;
+line-height: 20px;
+padding: 10px;
+margin-left: 583px;
+margin-top: -190px;
+color: white;
+font-size: 15px;
+text-transform: uppercase;
+}
+
+/*trabajando 2a parte service*/
+
+#services {
+outline: 1px solid red;
+width: 1322px;
+height: 650px;
+background-color: #F17B75;
+margin: -22px;
+}
+
+#services h2 {
+position: absolute;
+outline: 1px solid red;
+margin-left: 590px;
+margin-top: 100px;
+color: white;
+font-size: 26px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+#services h4 {
+position: absolute;
+outline: 1px solid red;
+margin-left: 300px;
+margin-top: 180px;
+color: white;
+font-size: 15px;
+text-align: center;
+}
+
+#services .servicescircle {
+height: 20px;
+
+}
